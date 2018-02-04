@@ -1,6 +1,8 @@
 # runningapp
 
-## howto get this project in your android studio
+This app is for knowledge demonstration purpose only.
+
+## howto get this project into your android studio
 
 1) File -> New -> Project from Version Control -> GitHub
 
