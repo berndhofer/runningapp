@@ -1,0 +1,151 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ddb.runningapp.InfoFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:text="@string/info_title"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/info_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/durationView"
+            android:layout_width="141dp"
+            android:layout_height="55dp"
+            android:text="TextView"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="163dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginStart="16dp" />
+
+        <TextView
+            android:id="@+id/endView"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="68dp"
+            android:text="TextView"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_constraintRight_creator="1"
+            android:layout_marginStart="44dp"
+            android:layout_marginEnd="40dp"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_constraintLeft_creator="1"
+            app:layout_constraintLeft_toRightOf="@+id/startView"
+            android:layout_marginLeft="44dp"
+            android:layout_marginRight="40dp"
+            app:layout_constraintHorizontal_bias="0.0" />
+
+        <TextView
+            android:id="@+id/start_title"
+            android:layout_width="90dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="31dp"
+            android:includeFontPadding="true"
+            android:text="@string/title_Start"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="24sp"
+            app:layout_constraintHorizontal_bias="0.085"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/duration_title"
+            android:layout_width="119dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="131dp"
+            android:includeFontPadding="true"
+            android:text="@string/title_Duration"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="24sp"
+            app:layout_constraintHorizontal_bias="0.094"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/title_distance"
+            android:layout_width="119dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="131dp"
+            android:includeFontPadding="true"
+            android:text="@string/title_Distance"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="24sp"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/startView"
+            android:layout_width="141dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="68dp"
+            android:text="TextView"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="16dp" />
+
+        <TextView
+            android:id="@+id/distanceView"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:text="TextView"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="163dp"
+            tools:layout_constraintRight_creator="1"
+            app:layout_constraintRight_toRightOf="@+id/endView"
+            tools:layout_constraintLeft_creator="1"
+            app:layout_constraintLeft_toLeftOf="@+id/endView"
+            app:layout_constraintHorizontal_bias="0.0" />
+
+        <TextView
+            android:id="@+id/endTitle"
+            android:layout_width="90dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="31dp"
+            android:includeFontPadding="true"
+            android:text="@string/title_End"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="24sp"
+            app:layout_constraintHorizontal_bias="0.721"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>
