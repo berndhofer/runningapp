@@ -19,7 +19,7 @@
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:layout_marginRight="5dp"
-        android:text="Delete" />
+        android:text="@string/delete_btn" />
 
     <Button
         android:id="@+id/info_btn"
@@ -28,6 +28,6 @@
         android:layout_toLeftOf="@id/delete_btn"
         android:layout_centerVertical="true"
         android:layout_marginRight="10dp"
-        android:text="Info" />
+        android:text="@string/info_btn" />
 
 </RelativeLayout>

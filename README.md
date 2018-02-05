@@ -20,3 +20,8 @@ OPTIONAL
 5) File -> Invalidate Caches / Restart
 6) Build -> Clean Build
 7) File -> Invalidate Caches / Restart
+
+## solving slow gradle build or build apk
+
+1) Disable antivirus on windows
+2) Reboot computer

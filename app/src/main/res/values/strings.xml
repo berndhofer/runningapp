@@ -1,17 +1,19 @@
 <resources>
-    <string name="app_name">RunningApp</string>
+    <string name="app_name">Running App</string>
     <string name="google_android_map_api_key">AIzaSyA2IKvySfSlF6_HEIb8b8TXB8zzvC5y4Ec</string>
 
 
-    <string name="loc_title">Current Location</string>
-    <string name="new_btn">neuer Eintrag</string>
-    <string name="seeAllBtn">Alle ansehen</string>
+    <string name="loc_title">Aktuelle Position</string>
+    <string name="new_btn">Neuer Eintrag</string>
+    <string name="seeAllBtn">Alle Einträge</string>
+    <string name="info_btn">Info</string>
+    <string name="delete_btn">Löschen</string>
     <string name="info_title">Info</string>
     <string name="title_activity_view_d">ViewD</string>
-    <string name="title_End">End</string>
+    <string name="title_End">Stop</string>
     <string name="title_Start">Start</string>
-    <string name="title_Duration">Duration</string>
-    <string name="title_Distance">Distance</string>
+    <string name="title_Duration">Zeit</string>
+    <string name="title_Distance">Entfernung</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
